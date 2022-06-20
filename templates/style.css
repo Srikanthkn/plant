@@ -1,0 +1,43 @@
+body{
+     background-image: url("login.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+   
+}
+.mainh{
+     color: rgb(18, 245, 6);
+     text-align: right;
+     position: absolute;
+     right: 60px;
+}
+.container {
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+  }
+  .container img {
+     border-radius: 50%;
+     position: relative;
+     right: 50%;
+     top: -10%;
+     transform: translateY(18%) translateX(880%);
+  }
+
+     .login{
+          text-align: center;
+          position: center;
+     }
+     .leaf{
+          color: rgb(255, 0, 89);
+         
+
+     }
+
+
+
+
+/** login page here**/
+.log{
+     color: brown;
+}

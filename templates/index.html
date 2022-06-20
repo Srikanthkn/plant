@@ -1,0 +1,38 @@
+{% load static  %}
+<html>
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="{%  static 'stylesheet/style.css' %}"/>
+</head>
+<body class="body">
+    <h1 class="lea" > LEAF NOW</h1>
+    <img class="leaf" src="{% static 'leaf.jpg'%}" alt="img not found"/><br>
+    
+     <a href="./sell/sell/"><h1 class="m" >DONATE</h1></a><br>
+    <img class="donate" src="{% static 'donate.jpg'%}" alt="img not found"/><br><br>
+    
+     
+   <h3 class="n" > <b>Wherever There is a Human Being,<br>There is a Oppurtunity for Kindness</b></h3> </b>
+   <br><br>
+   <form>    
+    <label><b>User Name     
+    </b>    
+    </label>    
+    <input type="text" name="Uname" id="U" placeholder="Uname">    
+    <br><br>    
+    <label><b>Password     
+    </b>    
+    </label>    
+    <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+    <br><br>    
+   <a href="#"> <input type="button" name="log" id="log" value="Log In Here">  </a>     
+    <br><br>    
+    <input type="checkbox" id="check">    
+    <span>Remember me</span>    
+    <br>  
+    Forgot <a href="#">Password</a>  <br>
+    <p>Create New user     <a href="./donate/login"><button class="click" type="button" name="button">click Here</button></a> <br/> <br/>  
+</form> 
+</body>
+</html>
